@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "~=3.2.6"
+djangorestframework = "*"
+pandas = "~=1.3.2"
+numpy = "~=1.21.1"
+channels = "*"
+channels-redis = "*"
+djangochannelsrestframework = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+server = "python manage.py runserver"
+client = "cd client && npm run start"
