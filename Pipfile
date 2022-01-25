@@ -13,6 +13,10 @@ channels-redis = "*"
 djangochannelsrestframework = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
+transformers = "*"
+emoji = "*"
+google-play-scraper = "*"
+torch = "*"
 
 [dev-packages]
 
